@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating transition in css</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #box{
+            display: flex;
+            height: 200px;
+            width: 200px;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            background-color: rgb(160, 38, 38);
+            border: 2px solid black;
+            /* transition-property: background-color; */
+            /* transition-duration: 4s; */
+            /* transition-timing-function: ease-in-out; */
+            transition: all 1s ease-in-out ;
+        }
+        #box:hover{
+            background-color: white;
+            height: 500px;
+            width: 400px;
+            border-radius: 45px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Fuck the world</h3>
+    <div class="container">
+        <div id="box">
+            This is my world
+        </div>
+    </div>
+    
+</body>
+</html>

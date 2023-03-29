@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetTimeout</title>
+</head>
+<body>
+    <div class="container">
+        This is container
+    </div>
+    <script>
+        // console.log("This is tutorial 58");
+        // settimeout allows the funtion work at once after interval of time 
+        // cleartimeout allows function repeatedly  in a given interval 
+        
+        // function greet(){
+        //     console.log("Hello world Good morning");
+        // }
+        // setTimeout(greet, 9000);
+        // timeout=setTimeout(greet, 3000);
+        // console.log(timeout);
+        // setInterval(greet, 1000);
+        // intervalId=setInterval(greet, 1000);
+        // clearInterval(intervalId);
+        function displayTime(){
+            time=new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML=time;
+        }
+        setInterval(displayTime, 1000);
+    </script>
+    
+</body>
+</html>

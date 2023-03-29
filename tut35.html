@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variable/custom</title>
+    <style>
+        :root{
+            --primary-color: rgb(107, 107, 225);
+            --secondary-color: gray;
+            /* this is global variable you also made the local variable  */
+        }
+        .box{
+            background-color: var(--primary-color);
+             width: 200px;
+             height: 200px;
+             border: 2px solid black;
+             margin: 9px 11px;
+            
+        }
+        .container{
+            display: flex;
+            border: 3px solid rgb(57, 12, 12);
+            background-color: var(--secondary-color);
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>

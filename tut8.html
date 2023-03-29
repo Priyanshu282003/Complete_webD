@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is scholarship form</h2>
+    <form action="backend.php">
+        <div>
+            Name:<input type="text">
+        </div>
+        <br>
+        <div>
+            Role:<input type="text">
+        </div>
+        <br>
+        <div>
+            Are you eligible?:<input type="checkbox" name="eligiblity">
+        </div>
+        <br>
+        <div>
+            Date:<input type="Date">
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender">
+        </div>
+        <br>
+        write about yourself?:<br><textarea name="myText" cols="10" rows="10"></textarea>
+        <!-- instead of input mytext we should use the textarea due to alarge area  -->
+        <br>
+        <div>
+            <label for="scholarship">scholarship</label>
+            <select name="myscholarship" id="scholarship">
+                <option value="Pre">Pre-matric</option>
+                <option value="Post">Post-matric</option>
+            </select>
+            <br>
+            <div>
+                <input type="submit" value="submit now">
+            </div>
+            <br>
+            <br>
+            <div>
+                Reset now:<input type="Reset">
+            </div>
+        </div>
+        
+    </form>
+    
+</body>
+</html>

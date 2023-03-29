@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+        h1{
+            background-color: grey;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+        }
+        div p{
+            background-color: rgb(230, 127, 127);
+            font-weight: bold;
+            color: black;
+            /* In this all the div paragraph is will be counted and it will work accordingly  */
+
+        }
+        div>p{
+            background-color: rgb(167, 151, 151);
+            font-weight: bold;
+            color: black;
+            /* In this only those value will be change who come under the the div  */
+        }
+    </style>
+</head>
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <p>The is hell </p>
+            <ul>
+            <li><p>This what you all are doing</p></li>
+            </ul>
+        </div>
+        <p>This is another hell</p>
+    </div>
+    <p>This is dangerous hell</p>
+</body>
+</html>

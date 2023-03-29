@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<style>
+    #btn{
+        border: 2px solid black;
+        padding: 10px 14px;
+        background-color: gray;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>This is my world</h1>
+        
+        <p id = "para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nisi laboriosam est veniam consequatur fugit
+            ullam cupiditate iure numquam sit? Non eum nisi quos sint perspiciatis totam commodi sit cupiditate illo
+            rem, veritatis quam in numquam provident rerum nostrum quibusdam officiis corrupti harum corporis? Libero
+            exercitationem, aut ex, enim perspiciatis facilis eaque eveniet fugiat fugit culpa voluptatem eos laboriosam
+            possimus blanditiis ut natus illum itaque. Eaque dolore fuga, possimus aspernatur quia id accusamus. A
+            tenetur mollitia optio, eius animi dolorum, beatae laboriosam nesciunt nisi corporis inventore aliquid vero
+            aliquam voluptatem, doloremque odit voluptas nihil at! Vel voluptas ex animi quidem delectus nostrum facere
+            veniam nam assumenda odio minima at placeat odit quae architecto nesciunt doloremque velit totam facilis,
+            consectetur voluptatibus in error voluptates! Doloremque deserunt consequatur dolorum repellat dolore ipsum
+            quod facere nam quasi, nulla consequuntur numquam iste maxime at. Soluta illum aperiam, nulla maxime cum
+            corporis temporibus porro tenetur alias? Non corrupti odit mollitia repudiandae qui dolore nisi magni esse.
+            Ipsam eum, voluptatum a ullam atque aperiam alias quod quam similique maxime deleniti possimus at architecto
+            eaque quos adipisci mollitia amet voluptatem fuga consequatur autem dignissimos. Quisquam, dolorem amet
+            nihil praesentium quibusdam accusantium illum obcaecati facere? Consequuntur recusandae sequi sunt atque,
+            vel voluptatibus ratione vitae id distinctio fugiat excepturi natus quia quaerat, error delectus consectetur
+            deserunt debitis. Ab repellat, natus excepturi, quia commodi quis libero quibusdam repudiandae quas dolore
+            incidunt optio eius eveniet dolor enim ipsa error quo voluptates temporibus cum explicabo voluptatem tempora
+            maiores. Praesentium neque eaque aspernatur rerum nisi corrupti, minima consectetur odit accusamus sunt
+            officia quis unde quod. Veniam, facilis id tenetur fugit excepturi laboriosam voluptas vitae similique
+            distinctio nulla nisi asperiores tempora voluptate suscipit dolorem harum, nemo quaerat quis ratione.
+            Blanditiis maiores tenetur doloribus quo quasi quis ipsam fuga minus asperiores eligendi voluptate rem ipsa
+            expedita, nam inventore quod, adipisci deleniti vitae. Et minus eveniet illo, voluptates minima soluta sint
+            optio, provident unde hic delectus magni ad in commodi id nihil iure, sequi alias cum architecto autem amet
+            maiores tempore quia. Rerum repudiandae culpa enim molestiae. Dolore, ipsa. Assumenda sed incidunt, facilis
+            sequi, ut maiores harum magni nulla ullam ipsum et voluptas nam, tempore quod saepe eligendi odit recusandae
+            vel in explicabo blanditiis! Magnam deserunt impedit aspernatur cumque delectus. Voluptatem, eveniet! Quidem
+            eius animi numquam totam provident. Corporis eligendi est minus, ea nobis distinctio error sint quaerat
+            voluptatem! Impedit minima sed veritatis, voluptatum consequuntur harum.</p>
+    </div>
+    <button id="btn" onclick="toggleHide()">Show/Hide</button>
+    <script>
+        function toggleHide(){
+            let btn=document.getElementById('btn');
+            let para=document.getElementsById('para');
+            para.style.display='none';
+        }
+    </script>
+</body>
+
+</html>

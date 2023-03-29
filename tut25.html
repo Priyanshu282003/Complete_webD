@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 3px;
+            background-color: grey;
+            height: 3444px;
+        }
+        .box{
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            margin: 3px;
+
+        }
+        #box3{
+           /* position: relative; /*this talks about the relative position to its normal position and leave the gap*/
+            /*top: 34px;*/
+           /* position: fixed;
+            right:4px;
+            bottom: 2px;*/ /*this is position relative  fixed toward its window positions*/
+            /* there is also the absolute position which is relative toward is parents positions */
+            position: sticky;
+            top: 3px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box0">0</div>
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3.Chat with us</div>
+    </div>
+</body>
+</html>
